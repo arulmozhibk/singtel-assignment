@@ -39,7 +39,7 @@ public class BirdTest {
     @Test
     public void roosterSing()
     {
-        Assert.assertFalse(rooster.sing());
+        Assert.assertTrue(rooster.sing());
     }
     @Test
     public void roosterFly()
