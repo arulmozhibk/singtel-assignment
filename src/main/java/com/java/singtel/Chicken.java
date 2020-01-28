@@ -12,6 +12,8 @@ public class Chicken extends Bird{
     public boolean fly() {
         System.out.println( "Chicken can't fly" );
         return false;
-
     }
+
+
+
 }

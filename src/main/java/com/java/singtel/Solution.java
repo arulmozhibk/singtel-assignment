@@ -17,5 +17,11 @@ public class Solution {
         Bird chicken =  new Chicken();
         chicken.sing();
         chicken.fly();
+
+        System.out.println("=====================ROOSTER=====================");
+        Rooster rooster =  new Rooster();// No inheritance relationship b/w Chicken and Rooster
+        rooster.sing();
+        rooster.fly();
+
     }
 }
