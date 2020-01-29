@@ -2,6 +2,8 @@ package com.java.singtel;
 
 public class Solution {
     public static void main(String[] args) {
+
+        System.out.println("=====================UNIT TESTING===================");
         Bird bird = new Bird();
         System.out.println("=====================BIRD===================");
         bird.walk();
@@ -13,6 +15,7 @@ public class Solution {
         Bird duck =  new Duck();
         duck.sing();
         duck.swim();
+
         System.out.println("=====================CHICKEN=====================");
         Bird chicken =  new Chicken();
         chicken.sing();
@@ -56,6 +59,20 @@ public class Solution {
         dolphin.sing();
         dolphin.swim();
         dolphin.walk();
+
+        System.out.println("=====================BUTTERFLY=====================");
+        Butterfly butterfly =  new Butterfly();
+        butterfly.setCaterpiller(false);
+        butterfly.fly();
+        butterfly.sing();
+        butterfly.walk();
+
+        System.out.println("=====================CATER PILLAR=====================");
+        Butterfly caterpillar =  new Butterfly();
+        caterpillar.setCaterpiller(true);
+        caterpillar.fly();
+        caterpillar.sing();
+        caterpillar.walk();
 
     }
 }

@@ -18,4 +18,9 @@ public class Cat implements Animal{
     public boolean swim() {
         return true;
     }
+
+    @Override
+    public boolean fly() {
+        return false;
+    }
 }

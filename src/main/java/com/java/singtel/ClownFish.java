@@ -1,61 +1,59 @@
 package com.java.singtel;
 
-public class ClownFish implements Fish{
-
+public class ClownFish implements Fish {
 
 
     @Override
     public boolean fly() {
 
-        System.out.println("I cannot fly");
+        System.out.println( "ClownFish cannot fly" );
         return false;
-
 
 
     }
 
     @Override
     public boolean sing() {
-        System.out.println("I cannot sing");
+        System.out.println( "ClownFish cannot sing" );
         return false;
 
     }
 
     @Override
     public boolean walk() {
-        System.out.println("I cannot walk");
+        System.out.println( "ClownFish cannot walk" );
         return false;
 
     }
 
     @Override
     public boolean swim() {
-        System.out.println("I can swim");
+        System.out.println( "ClownFish can swim" );
         return true;
 
     }
 
     @Override
     public void size() {
-        System.out.println("I am small");
+        System.out.println( "ClownFish am small" );
 
     }
 
     @Override
     public void colour() {
-        System.out.println("I am Orange in colour");
+        System.out.println( "ClownFish am Orange in colour" );
     }
 
     @Override
     public boolean eat() {
-        System.out.println("I dont eat other fish");
+        System.out.println( "ClownFish dont eat other fish" );
         return false;
 
     }
 
     @Override
     public boolean makeJokes() {
-        System.out.println("I make Jokes");
+        System.out.println( "ClownFish make Jokes" );
         return true;
 
     }

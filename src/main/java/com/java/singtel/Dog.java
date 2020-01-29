@@ -16,4 +16,9 @@ public class Dog implements Animal {
     public boolean swim() {
         return true;
     }
+
+    @Override
+    public boolean fly() {
+        return false;
+    }
 }
