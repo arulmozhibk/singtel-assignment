@@ -11,6 +11,8 @@ package com.java.singtel;
         return true;
     }
 
-    boolean swim() ;
+    public boolean swim() ;
+    public boolean fly();
+
 
 }

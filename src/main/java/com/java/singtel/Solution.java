@@ -30,5 +30,32 @@ public class Solution {
         parrot.sing( "Rooster" );
         parrot.sing( "Duck" );
 
+        System.out.println("=====================SHARK=====================");
+        Shark shark = new Shark();
+        shark.fly();
+        shark.sing();
+        shark.walk();
+        shark.swim();
+        shark.colour();
+        shark.eat();
+        shark.makeJokes();
+
+        System.out.println("=====================CLOWN FISH=====================");
+        ClownFish clownFish = new ClownFish();
+        clownFish.fly();
+        clownFish.sing();
+        clownFish.walk();
+        clownFish.swim();
+        clownFish.colour();
+        clownFish.eat();
+        clownFish.makeJokes();
+        System.out.println("=====================DOLPHIN=====================");
+        Dolphin dolphin = new Dolphin();
+        dolphin.hasFish(new Shark());
+        dolphin.fly();
+        dolphin.sing();
+        dolphin.swim();
+        dolphin.walk();
+
     }
 }
