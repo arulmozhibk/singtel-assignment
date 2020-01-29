@@ -7,8 +7,8 @@ package com.java.singtel;
         return true;
     }
      public default boolean sing(){
-        System.out.println( "Animal is not singing" );
-        return false;
+        System.out.println( "Animal is  singing" );
+        return true;
     }
 
     boolean swim() ;

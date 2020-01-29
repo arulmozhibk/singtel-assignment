@@ -23,5 +23,12 @@ public class Solution {
         rooster.sing();
         rooster.fly();
 
+        System.out.println("=====================PARROT=====================");
+        Parrot parrot=new Parrot();
+        parrot.sing( "Dog" );
+        parrot.sing( "Cat" );
+        parrot.sing( "Rooster" );
+        parrot.sing( "Duck" );
+
     }
 }

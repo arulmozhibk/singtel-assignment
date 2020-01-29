@@ -1,7 +1,4 @@
-import com.java.singtel.Bird;
-import com.java.singtel.Chicken;
-import com.java.singtel.Duck;
-import com.java.singtel.Rooster;
+import com.java.singtel.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -45,6 +42,31 @@ public class BirdTest {
     public void roosterFly()
     {
         Assert.assertFalse(rooster.fly());
+    }
+    Parrot parrot=new Parrot();
+    /*A.1.4
+    * A.1.5
+    * A.1.6
+    * */
+    @Test
+    public void parrotDogSing()
+    {
+        Assert.assertTrue( parrot.sing( "Dog" ));
+    }
+    @Test
+    public void parrotCatSing()
+    {
+        Assert.assertTrue( parrot.sing( "Cat" ));
+    }
+    @Test
+    public void parrotRoosterSing()
+    {
+        Assert.assertTrue( parrot.sing( "Rooster" ));
+    }
+    @Test
+    public void parrotDuckSing()
+    {
+        Assert.assertTrue( parrot.sing( "Duck" ));
     }
 
 

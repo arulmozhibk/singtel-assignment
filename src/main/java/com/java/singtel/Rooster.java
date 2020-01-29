@@ -1,6 +1,6 @@
 package com.java.singtel;
 
-public class Rooster {
+public class Rooster extends Bird{
 
 Chicken chicken=new Chicken();
 

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93d06304-4bcf-4125-b332-7088c39ee17a" name="Default Changelist" comment="Commit for the item A.1.1 and A.1.2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Rooster.java" afterDir="false" />
+    <list default="true" id="93d06304-4bcf-4125-b332-7088c39ee17a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Parrot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Chicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Rooster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Rooster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BirdTest.java" afterDir="false" />
     </list>
@@ -33,8 +37,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1X0h7f33FAmdGgBajf1LZuCcaDV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../01_Testing_interview_practice/Java8" />
     <property name="project.structure.last.edited" value="Project" />
@@ -54,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="JUnit.BirdTest">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.singtel.Solution" />
       <module name="singtel-assignment" />
@@ -64,14 +71,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in singtel-assignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="singtel-assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BirdTest.roosterFly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singtel-assignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BirdTest" />
+      <option name="METHOD_NAME" value="roosterFly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BirdTest.sing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singtel-assignment" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.BirdTest" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.BirdTest.roosterFly" />
         <item itemvalue="JUnit.BirdTest.sing" />
         <item itemvalue="JUnit.BirdTest.chickenFly" />
-        <item itemvalue="JUnit.All in singtel-assignment" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580206399735</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit for the item A.1.3 - model a rooster">
+      <created>1580212643241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580212643241</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit for the item A.1.3 - model a rooster">
+      <created>1580212726047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580212726047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,8 +178,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="A.1 first commit" />
     <MESSAGE value="Commit for the item A.1.1 and A.1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit for the item A.1.1 and A.1.2" />
+    <MESSAGE value="Commit for the item A.1.3 - model a rooster" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for the item A.1.3 - model a rooster" />
   </component>
 </project>
