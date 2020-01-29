@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93d06304-4bcf-4125-b332-7088c39ee17a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Butterfly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/AnimalCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/ClownFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/ClownFish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Rooster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Rooster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/java/singtel/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/singtel/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,6 +64,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Solution">
+    <configuration name="AnimalCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.singtel.AnimalCount" />
+      <module name="singtel-assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.singtel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.singtel.Solution" />
       <module name="singtel-assignment" />
@@ -83,16 +95,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BirdTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BirdTest.chickenFly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="singtel-assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BirdTest" />
-      <option name="METHOD_NAME" value="chickenFly" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,10 +122,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.AnimalCount" />
         <item itemvalue="JUnit.BirdTest" />
         <item itemvalue="JUnit.BirdTest.roosterFly" />
         <item itemvalue="JUnit.BirdTest.sing" />
-        <item itemvalue="JUnit.BirdTest.chickenFly" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580271621172</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit for the item D  - Model animals that change their behaviour over time, Butterfly and Caterpillar">
+      <created>1580272992863</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580272992863</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +210,7 @@
     <MESSAGE value="Commit for the item A.1.3 - model a rooster" />
     <MESSAGE value="Commit for the item A.1.4,A.1.5,A.1.6 - model a Parrot" />
     <MESSAGE value="Commit for the item B 7,8,9,10,11 - Model fish as well as other swimming animals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit for the item B 7,8,9,10,11 - Model fish as well as other swimming animals" />
+    <MESSAGE value="Commit for the item D  - Model animals that change their behaviour over time, Butterfly and Caterpillar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for the item D  - Model animals that change their behaviour over time, Butterfly and Caterpillar" />
   </component>
 </project>

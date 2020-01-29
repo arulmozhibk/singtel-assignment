@@ -56,3 +56,40 @@ a. A caterpillar cannot fly b. A caterpillar can walk (crawl)
     Created butterfly class that implements animal which can fly and does not make sound.
     Checking the catterpillar behaviour by "isCaterpiller()" whether true or false-  to account for the metamorphosis from caterpillar to
 butterfly
+
+E. Counting animals - Run the AnimalCount class
+Number of Animals that can fly: 4
+Number of Animals that can walk: 7
+Number of Animals that can sing: 7
+Number of Animals that can swim: 9
+
+BONUS
+
+Can you add a second language (if you know a language other than English) Use the rooster as a PoC for demonstrating this. For example, this is how the Rooster sounds differently depending on language. Please add the rooster sound in your native tongue.
+
+    Yes, Added the multiple languages  and their sounds in Map , run the Solution class.
+    
+Restful API design
+Request Type : http://localhost:8080/animal/getAnimalByName/Chicken
+
+Response type:  
+  { 
+     "animal":{ 
+        "type":"bird",
+        "name":"Chicken",
+        "swim":"Chicken cannot swim",
+        "walk":"Chicken can walk",
+        "sing":"Cluck, cluck",
+        "fly":"Chicken can't fly"
+     }
+  }
+  
+  Prerequisites
+  JAVA 1.8 , Maven and IDE (Prefer IntelliJ or Eclipse) 
+  
+  Build/Install
+  IntelliJ/Eclipse IDE - import the Project as Maven Project and add the dependencies(if required) 
+  Running the tests by running com.java.singtel.Solution.java, com.java.singtel.AnimalCount.java, and  test/java/com/java/singtel/BirdTest.java 
+  Run either the Test Class - com.java.singtel.BirdTest.java or Solution.java
+  
+  

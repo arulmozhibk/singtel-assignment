@@ -1,5 +1,8 @@
 package com.java.singtel;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution {
     public static void main(String[] args) {
 
@@ -73,6 +76,33 @@ public class Solution {
         caterpillar.fly();
         caterpillar.sing();
         caterpillar.walk();
+
+        System.out.println("=====================Testing the Rooster Language=====================");
+        Rooster roosterLang = new Rooster();
+        List<String> languageList = new ArrayList<String>(){{
+            add("English");
+            add("Danish");
+            add("Dutch");
+            add("Finnish");
+            add("French");
+            add("German");
+            add("Greek");
+            add("Hebrew");
+            add("Hungarian");
+            add("Italian");
+            add("Japanese");
+            add("Portuguese");
+            add("Russian");
+            add("Swedish");
+            add("Turkish");
+            add("Urdu");
+        }};
+
+        languageList.stream().forEach( lang ->  roosterLang.sing(lang) );
+
+        /*for (String language : arrayList) {
+            roosterLang.sing(language);
+        }*/
 
     }
 }
